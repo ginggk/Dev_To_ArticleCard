@@ -1,0 +1,95 @@
+body {
+    display: flex;
+    /* width: 600px; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.article-card-header {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    /* padding: 0 0 0 0; */
+}
+
+.article-card-header {
+    font-size: 1.5em;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.articlecard-second-header {
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 100;
+    /* margin-right: 5rem; */
+}
+
+.articlecard-subtext {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    /* margin-right: 5rem; */
+}
+
+.image-article {
+    border-radius: 50%;
+    /* margin-right: 1rem; */
+    display: inline-block;
+}
+.article-card-container {
+    display: inline-block;
+    padding-left: 1rem;
+}
+
+.button-row {
+    width: 100%;
+}
+
+.card-buttons {
+    display: inline-block;
+}
+a {
+    text-decoration: none;
+    color: grey;
+    font-size: 12px;
+}
+
+button {
+    color: white;
+    background-color: #3671d1;
+    border-radius: 5px;
+    border: 0;
+    padding: 8px;
+    font-size: 1.5em;
+}
+
+.article-save-button {
+    display: inline-block;
+    float: right;
+}
+
+.container {
+    float: middle;
+    border: 1px black solid;
+    box-shadow: 5px 5px grey;
+    width: 50%;
+    padding: 2rem;
+}
+
+.no-break {
+    display: inline-block;
+}
+
+img.image-article {
+    border-radius: 50%;
+    height: 65px;
+    width: 65px;
+}
+
+.top-row > div {
+    vertical-align: top;
+}
+.bottom-row > div {
+    vertical-align: baseline;
+}
